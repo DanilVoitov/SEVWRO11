@@ -364,7 +364,7 @@ document.addEventListener('click', async event => {
   }
   if (target instanceof HTMLAnchorElement && !target.closest('#mobile-menu')) closeMenu(false);
 });
-window.addEventListener('resize', () => {if (window.innerWidth > 680) closeMenu(false);});
+window.addEventListener('resize', () => {if (window.innerWidth > 760) closeMenu(false);});
 window.addEventListener('storage', event => {
   if (event.key === storageKeys.wardrobe || event.key === null) {
     cart.splice(0, cart.length, ...validateWardrobe(readStorage(storageKeys.wardrobe, [])));

@@ -34,3 +34,19 @@ WebP derivatives
 - Total size: 640 variants 472,324 bytes; larger variants 1,172,016 bytes. The eleven original inputs total 6,825,374 bytes.
 - No semantic edits were made during derivative generation. The Open Graph cover was composed by ImageGen and only resized / converted afterward.
 
+atelier-editorial.png — tactile atelier redesign, 13 October 2026
+- Generated with the built-in image_gen tool; no external API / CLI fallback used.
+- Dimensions: 1536 x 1024. Fictional AI-generated editorial photograph, not a real garment or product photograph.
+- Original retained unchanged. WebP derivatives encoded with Sharp/libwebp, quality 84, effort 6, with no semantic edits.
+- atelier-editorial-640.webp: 640 x 427, 21,428 bytes.
+- atelier-editorial-1600.webp: 1536 x 1024, 102,348 bytes. The suffix identifies the maximum requested width; native dimensions are preserved without upscaling. Use 1536w in srcset.
+- Final prompt:
+Use case: photorealistic-natural
+Asset type: full-width atmospheric editorial photograph for a premium menswear portfolio website, SEVERO tactile atelier direction.
+Primary request: A close editorial detail of an adult male torso wearing an exquisitely textured chocolate-brown soft wool blazer over an ivory fine-knit crew neck. One hand naturally and gently adjusts the opposite cuff. No face visible: the crop starts at the lower neck and ends near the hips.
+Scene/backdrop: warm, shadowy atelier with understated plaster architectural surfaces in the background, softly out of focus.
+Style/medium: exceptionally natural high-end fashion editorial photography, convincing wool weave and knit texture, subtle analog grain, real skin, elegant quiet restraint.
+Composition/framing: landscape 3:2, large tactile garment and natural hand gesture as focal point, comfortably framed with a little architectural breathing room; poised and unforced, suitable as a wide editorial interlude.
+Lighting/mood: subdued natural window light, gentle tonal gradation, rich shadows retaining fabric detail.
+Color palette: dark chocolate, warm espresso, ivory and muted stone.
+Constraints: no visible face, anatomically correct hands, no logos, no writing, no watermark, no borders, no collage. Image only. Clothing must feel soft and tailored, not shiny or rigid.
